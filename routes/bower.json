@@ -1,0 +1,20 @@
+{
+  "name": "mean-machine",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Héctor Macías <hectormaciasc@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "mean"
+  ],
+  "homepage": "https://github.com/hmaciasc/mean-machine",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
