@@ -6,6 +6,8 @@ var mongoose = require("mongoose");
 var port = process.env.PORT || 8080;
 var User = require("./app/models/user");
 var apiRouter = require("./routers/apiRouter.js");
+var jwt = require("jsonwebtoken");
+var superSecret = "ilovescotch";
 
 app.use(bodyParser.urlencoded({
     extended: true
@@ -28,4 +30,4 @@ app.get("/", function(req, res) {
 app.use("/api", apiRouter);
 
 app.listen(port);
-console.log("Magic happens on port" + port);
+console.log("http://localhost:8080");
